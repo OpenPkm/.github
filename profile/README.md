@@ -1,12 +1,37 @@
-## Hi there 👋
+# Open Pokémon (UD)
 
-<!--
+## What is it?
 
-**Here are some ideas to get you started:**
+Open pokemon is a generic open backend.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+Everyone can download it, modify it, use it as wanted.
+
+## What 'UD' means?
+
+Under development. Do not use it right now. But you can follow the
+project and help :D
+
+## How can I use it?
+
+You must download and run at least:
+
+ - Service Discovery;
+ - API Gateway;
+ - Third parties;
+ - Main module.
+
+Every basic information about pokémons, types, abilities... will
+be found in **Main Module**. But, due to a microservice 
+architecture, API Gateway pattern was used and this will need 
+to use **Service Discovery** (Eureka) module.
+
+**Main module** information are stored in a database, 
+conveniently created in the **Third Parties** module.
+
+## Precautions
+
+**Third Parties** was configured with generic values (for usernames, 
+passwords, ports...). 
+
+If you wanna use it, you **MUST** replace this values by your own
+values.
